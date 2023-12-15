@@ -10,4 +10,3 @@
 
 **Диаграмма классов:**
 
-![Diagram](./classes_diagram.jpg)
