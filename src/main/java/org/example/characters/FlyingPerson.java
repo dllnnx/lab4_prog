@@ -5,7 +5,7 @@ import org.example.enums.*;
 import org.example.exceptions.IllegalPersonMovingException;
 import org.example.interfaces.Singable;
 
-public class FlyingPerson extends Human implements Singable {
+public class FlyingPerson extends Human {
     public FlyingPerson(String name) {
         super(name);
     }
@@ -31,8 +31,4 @@ public class FlyingPerson extends Human implements Singable {
         System.out.println(this.getName() + " пролетает мимо: " + object + ".");
     }
 
-    @Override
-    public void sing(String song) {
-        System.out.println(this.getName() + " напевает " + song + ".");
-    }
 }

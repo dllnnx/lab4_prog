@@ -1,9 +1,11 @@
 package org.example.actions;
 
 import org.example.characters.FlyingPerson;
+import org.example.characters.Human;
 import org.example.enums.Count;
 import org.example.enums.HeadMovement;
 import org.example.interfaces.Action;
+import org.example.interfaces.Singable;
 
 public class PersonFliesInsideTheRoom implements Action {
 
@@ -20,7 +22,14 @@ public class PersonFliesInsideTheRoom implements Action {
         flyingPerson.moveHead(HeadMovement.BOW);
         flyingPerson.squint();
         flyingPerson.flyInCircles("под потолком", Count.FEW);
-        flyingPerson.sing("какую-то веселую песенку");
+        // анонимный класс
+        Singable singable = new Singable() {
+            @Override
+            public void sing(Human human, String song) {
+                System.out.println(human.getName() + " напевает " + song + ".");
+            }
+        };
+        singable.sing(flyingPerson, "какую-то веселую песенку");
     }
 
     @Override

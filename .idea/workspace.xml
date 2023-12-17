@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13cd5391-fbd8-416d-91fa-ac946204f8fd" name="Changes" comment="added Story, Friends, Opinion classes&#10;fixed Main">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonFliesInsideTheRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonFliesInsideTheRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonWantsADog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonWantsADog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/characters/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/characters/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/characters/Opinion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/characters/Opinion.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YDK3mST8HpDYTdk07BmHbbZtu3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alena/IdeaProjects/lab4_prog&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/alena/IdeaProjects/lab3_prog/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alena\IdeaProjects\lab3_prog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="lab3_prog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13cd5391-fbd8-416d-91fa-ac946204f8fd" name="Changes" comment="" />
+      <created>1700054514764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700054514764</updated>
+    </task>
+    <task id="LOCAL-00001" summary="changed pom.xml">
+      <option name="closed" value="true" />
+      <created>1700246924565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700246924565</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed Human.java">
+      <option name="closed" value="true" />
+      <created>1700252826417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700252826417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed final variables">
+      <option name="closed" value="true" />
+      <created>1700256876012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700256876012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed Object methods">
+      <option name="closed" value="true" />
+      <created>1700261949894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700261949894</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed Constructors">
+      <option name="closed" value="true" />
+      <created>1700291564771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700291564771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added Story, Friends, Opinion classes&#10;fixed Main">
+      <option name="closed" value="true" />
+      <created>1700302320260</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700302320260</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed pom.xml" />
+    <MESSAGE value="fixed Human.java" />
+    <MESSAGE value="fixed final variables" />
+    <MESSAGE value="fixed Object methods" />
+    <MESSAGE value="fixed Constructors" />
+    <MESSAGE value="added Story, Friends, Opinion classes&#10;fixed Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Story, Friends, Opinion classes&#10;fixed Main" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

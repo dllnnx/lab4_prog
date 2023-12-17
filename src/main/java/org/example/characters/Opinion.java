@@ -3,6 +3,7 @@ package org.example.characters;
 import org.example.enums.*;
 
 public class Opinion {
+    // статические вложенные классы
 
     public static class OpinionAboutPerson {
         private final Confidence confidence;

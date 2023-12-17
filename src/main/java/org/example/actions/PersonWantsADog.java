@@ -5,6 +5,8 @@ import org.example.characters.Wish;
 import org.example.enums.Measure;
 import org.example.interfaces.Action;
 
+import java.util.List;
+
 public class PersonWantsADog implements Action {
     private final Human thinkingPerson;
     private final Human interruptingPerson;

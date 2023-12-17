@@ -87,15 +87,22 @@ public class Human extends Essence{
         this.wishes = wishes;
     }
 
-
     // methods
 
     public void printState(){
-        if (this.location != null){
-            System.out.println(this.getName() + " " + this.getPosition().getTitle() + " в " + this.getLocation().getName() + ".");
-        } else {
-            System.out.println(this.getName() + " " + this.getPosition().getTitle() + ".");
+        // локальный класс State
+        class State{
+            public void print(){
+                if (getLocation() != null){
+                    System.out.println(getName() + " " + getPosition().getTitle() + " в " + getLocation().getName() + ".");
+                } else {
+                    System.out.println(getName() + " " + getPosition().getTitle() + ".");
+                }
+            }
         }
+
+        State state = new State();
+        state.print();
     }
 
     public void brag(String s, Human human) {
