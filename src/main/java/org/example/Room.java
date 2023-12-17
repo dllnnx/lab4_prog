@@ -39,22 +39,30 @@ public class Room {
             throw new IllegalPersonMovingException(human.getName() + " уже в " + this.getName() + "!");
         }
         for (Human man: people){
-            if (Friends.isFriend(man, human)) man.react(Emotion.HAPPY, human);
-            else man.react(Emotion.JEALOUS, human);
+            Human.HumanMind mind = man.new HumanMind();
+            if (Friends.isFriend(man, human)){
+                mind.react(Emotion.HAPPY, human);
+            }
+            else{
+                mind.react(Emotion.JEALOUS, human);
+            }
         }
         people.add(human);
+        human.setLocation(this);
     }
 
-    public void moveTo(Human human, Room room) throws IllegalPersonMovingException {
+    public void moveTo(Human human) throws IllegalPersonMovingException {
         if (people.contains(human)){
             throw new IllegalPersonMovingException(human.getName() + " уже в " + this.getName() + "!");
         }
         System.out.println(human.getName() + " зашел в: " + getName() + ".");
         for (Human man: people){
-            if (Friends.isFriend(man, human)) man.react(Emotion.HAPPY, human);
-            else man.react(Emotion.JEALOUS, human);
+            Human.HumanMind mind = man.new HumanMind();
+            if (Friends.isFriend(man, human)) mind.react(Emotion.HAPPY, human);
+            else mind.react(Emotion.JEALOUS, human);
         }
         people.add(human);
+        human.setLocation(this);
     }
 
     public void removeFromRoom(Human human) throws IllegalPersonMovingException {
@@ -63,6 +71,7 @@ public class Room {
         }
         System.out.println(human.getName() + " вышел из: " + getName() + ".");
         people.remove(human);
+        human.setLocation(null);
     }
 
 

@@ -1,17 +1,16 @@
 package org.example.enums;
 
-public enum Rate {
-    BEST("лучший"),
-    GOOD("хорош"),
-    BAD("плох");
+public enum Count {
+    MANY("много"),
+    FEW("несколько"),
+    ALITTLE("мало");
     private final String title;
 
-    Rate(String title) {
+    Count(String title) {
         this.title = title;
     }
 
     public String getTitle() {
         return title;
     }
-
 }

@@ -5,20 +5,20 @@ import org.example.enums.EventType;
 import java.util.List;
 
 public class Event {
-    private Human human;
+    private Essence essence;
     private final EventType type;
 
-    public Event(Human human, EventType type) {
-        this.human = human;
+    public Event(Essence human, EventType type) {
+        this.essence = human;
         this.type = type;
     }
 
-    public Human getHuman() {
-        return human;
+    public Essence getEssence() {
+        return essence;
     }
 
-    public void setHuman(Human human) {
-        this.human = human;
+    public void setEssence(Essence essence) {
+        this.essence = essence;
     }
 
     public EventType getType() {

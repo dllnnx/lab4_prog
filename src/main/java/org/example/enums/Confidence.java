@@ -3,7 +3,8 @@ package org.example.enums;
 public enum Confidence {
     DEFINITELY("уверен, что"),
     PROBABLY("почти уверен, что"),
-    DEFINITELYNOT("не уверен, что");
+    DEFINITELYNOT("не уверен, что"),
+    SEEMS("показалось, что");
     private final String title;
 
     Confidence(String title) {

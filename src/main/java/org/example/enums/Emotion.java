@@ -3,15 +3,17 @@ package org.example.enums;
 public enum Emotion {
     HAPPY("рад"),
     CALM("спокоен"),
-    JEALOUS("завидует");
+    JEALOUS("завидует"),
+    MISS("скучает"),
+    ANXIETY("чувствует тревогу");
 
-    private final String emotion;
+    private final String title;
 
     Emotion(String emotion){
-        this.emotion = emotion;
+        this.title = emotion;
     }
-    public String getEmotion() {
-        return emotion;
+    public String getTitle() {
+        return title;
     }
 
 }

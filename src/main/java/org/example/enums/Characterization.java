@@ -1,17 +1,16 @@
 package org.example.enums;
 
-public enum Rate {
-    BEST("лучший"),
-    GOOD("хорош"),
-    BAD("плох");
+public enum Characterization {
+    BAD("плохо"),
+    GOOD("хорошо"),
+    OK("нормально");
     private final String title;
 
-    Rate(String title) {
+    Characterization(String title) {
         this.title = title;
     }
 
     public String getTitle() {
         return title;
     }
-
 }

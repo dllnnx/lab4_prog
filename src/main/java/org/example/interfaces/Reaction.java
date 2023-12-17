@@ -1,4 +1,4 @@
-package org.example.characters;
+package org.example.interfaces;
 
 import org.example.characters.*;
 import org.example.enums.*;

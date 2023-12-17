@@ -5,7 +5,8 @@ public enum Position {
     LIE("лежит"),
     SIT("сидит"),
     UP("встал"),
-    DOWN("сел");
+    DOWN("сел"),
+    READ("читает");
     private final String title;
     Position(String title) {
         this.title = title;
