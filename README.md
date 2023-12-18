@@ -10,5 +10,5 @@
 2. В программу необходимо добавить использование локальных, анонимных и вложенных классов (static и non-static). <br>
 
 **Диаграмма классов:**
-![Diagram](./uml.jpg)
-![Diagram](./uml_with_vars.jpg)
+![Diagram](./uml.png)
+![Diagram](./uml_with_vars.png)
