@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cd5391-fbd8-416d-91fa-ac946204f8fd" name="Changes" comment="added Story, Friends, Opinion classes&#10;fixed Main">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Story.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonFliesInsideTheRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonFliesInsideTheRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonWantsADog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonWantsADog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/characters/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/characters/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/characters/Opinion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/characters/Opinion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
