@@ -7,13 +7,14 @@ import org.example.interfaces.Action;
 
 public class PersonMissesSomeone implements Action {
     private final Human  malysh;
+    private final Human karlson;
 
     public PersonMissesSomeone(Human malysh, Human karlson) {
         this.malysh = malysh;
         this.karlson = karlson;
     }
 
-    private final Human karlson;
+
 
     @Override
     public void run() {

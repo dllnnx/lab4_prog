@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cd5391-fbd8-416d-91fa-ac946204f8fd" name="Changes" comment="added Story, Friends, Opinion classes&#10;fixed Main">
-      <change beforePath="$PROJECT_DIR$/classes_diagram.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ActionCl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Think.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonMissesSomeone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonMissesSomeone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonThinksAboutFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/actions/PersonThinksAboutFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IllegalPersonMovingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IllegalPersonMovingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IllegalPhraseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IllegalPhraseException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
